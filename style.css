@@ -12,24 +12,31 @@
   --color-darkgrayish: hsl(240, 6%, 50%);
   --color-lightgrayish: hsl(240, 5%, 91%);
 }
-
-html,
+html {
+  font-size: 12px;
+}
 body {
   background: var(--color-background);
-  font-size: 12px;
+  /* font-size: 12px; */
   font-family: "Kumbh Sans", sans-serif;
   line-height: 1.5;
-  /* min-height: 100vh; */
+  min-height: 100vh;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  padding: 3rem 6rem;
 }
 
 .container {
   background-color: white;
-  margin: 2rem auto 2rem auto;
+  /* margin: 2rem auto 2rem auto; */
   display: flex;
   flex-direction: row;
   border-radius: 1rem;
   overflow: hidden;
-  width: 80%;
+  width: 70rem;
   height: 37rem;
   position: relative;
 }
@@ -61,10 +68,10 @@ h1 {
 }
 #box-desktop {
   position: absolute;
-  width: 11%;
-  top: 44%;
-  left: 6%;
-  z-index: 1;
+  width: 11rem;
+  top: 18rem;
+  left: 6rem;
+  z-index: 999;
 }
 
 .question-container {

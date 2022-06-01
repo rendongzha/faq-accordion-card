@@ -69,7 +69,7 @@ document
     }
   });
 
-const narrowWidth = window.matchMedia("(max-width:960px)");
+const narrowWidth = window.matchMedia("(max-width:1000px)");
 
 function portrait(width) {
   if (width.matches) {
